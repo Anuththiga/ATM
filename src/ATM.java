@@ -1,8 +1,9 @@
 
-public class ATM {
+public class ATM extends OptionMenu {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		OptionMenu optMenu = new OptionMenu();
+		optMenu.getLogin();
 
 	}
 
